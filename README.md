@@ -22,7 +22,7 @@ Procedure:
   •	"In photosynthesis, plants absorb sunlight to produce ____."
 
 
-## 3. Implementation of Prompt Types
+## Implementation of Prompt Types
 A. Straightforward Prompts
 These are direct, concise instructions that do not require complex context. They are best for factual retrieval or simple definitions.
 * Prompt 1: "Define photosynthesis in one sentence."
@@ -57,7 +57,7 @@ These are direct, concise instructions that do not require complex context. They
 | **SQL** | Declarative | Database Management |
 
 
-## C. Preceding Question Prompting
+## Preceding Question Prompting
 This technique provides a "hook" or a logical lead-in question that sets the context before the main instruction is given. It helps the model "warm up" its reasoning path.
 * Prompt 1: "Why is climate change a global concern? Explain how greenhouse gases contribute to global warming."
     * Response: Climate change is a global concern because it leads to rising sea levels, extreme weather patterns, and biodiversity loss. Greenhouse gases (like $CO_2$ and $CH_4$) contribute by trapping infrared radiation within the Earth's atmosphere, creating a "blanket" effect that prevents heat from escaping into space.
@@ -74,7 +74,7 @@ Used primarily for testing knowledge or forcing specific phrasing, this techniqu
     * Response: Glucose (or chemical energy/sugar).
 
 
-## 6. Conclusion
+##  Conclusion
 The experiment demonstrates that while Straightforward Prompts are efficient for quick facts, Tabular Format Prompting is the most powerful for data-heavy tasks. Preceding Question Prompting bridges the gap between simple facts and deep conceptual understanding. Mastering these techniques is essential for developing robust AI-driven workflows.
 
 
