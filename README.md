@@ -74,50 +74,6 @@ Used primarily for testing knowledge or forcing specific phrasing, this techniqu
     * Response: Glucose (or chemical energy/sugar).
 
 
-
-## 4. Unit 5 Use Case: Sentiment Analysis for Customer Feedback
-(Applying Unit 2 Prompting Types to a Unit 5 Machine Learning Scenario)
-The Scenario
-An E-commerce company wants to automate the categorization of 10,000 daily product reviews to improve customer satisfaction. We will use Tabular Format Prompting (from Unit 2) to generate a structured report of these reviews.
-The Developed Prompt
-"Analyze the following three customer reviews. Create a table with the columns: Review ID, Sentiment (Positive/Negative/Neutral), Key Issue, and Recommended Action."
-
-
-
-Generated Report/Output
-Review ID	Sentiment	Key Issue	Recommended Action
-#8821	Negative	Battery life lasted only 2 hours.	Issue a replacement or technical check.
-#8822	Positive	High-quality lens for the price.	Highlight in marketing testimonials.
-#8823	Neutral	Delivery was fast, but packaging was torn.	Audit the logistics/packaging department.
-
-
-
-
-## 5. Evaluation Method: Accuracy and Structure Analysis
-To evaluate the effectiveness of these prompts, we use the Output Fidelity Metric. This involves checking:
-1. Format Adherence: Did the model follow the table/sentence constraint?
-2. Factual Correctness: Is the data (e.g., AC/DC comparison) scientifically accurate?
-Evaluation Results
-* Tabular Prompting: Scored 10/10. It successfully forced the model to categorize unstructured data into actionable business intelligence.
-* Preceding Question Prompting: Scored 9/10. It provided much deeper context than a straightforward prompt, making the explanation of "Global Warming" more cohesive.
-
-
----
-
-### Sentiment Analysis Report (From Unit 5 Use Case)
-
-
-**Prompt:** "Analyze the following three customer reviews. Create a table with the columns: Review ID, Sentiment (Positive/Negative/Neutral), Key Issue, and Recommended Action."
-
-
-| Review ID | Sentiment | Key Issue | Recommended Action |
-| :--- | :--- | :--- | :--- |
-| **#8821** | Negative | Battery life lasted only 2 hours. | Issue a replacement or technical check. |
-| **#8822** | Positive | High-quality lens for the price. | Highlight in marketing testimonials. |
-| **#8823** | Neutral | Delivery was fast, but packaging was torn. | Audit the logistics/packaging department. |
-
-
-
 ## 6. Conclusion
 The experiment demonstrates that while Straightforward Prompts are efficient for quick facts, Tabular Format Prompting is the most powerful for data-heavy tasks. Preceding Question Prompting bridges the gap between simple facts and deep conceptual understanding. Mastering these techniques is essential for developing robust AI-driven workflows.
 
